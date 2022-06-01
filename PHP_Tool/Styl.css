@@ -1,0 +1,57 @@
+#btn{
+    font-size: 14px;
+    background-color: rgb(221, 203, 153);
+}
+#btn2{
+    font-size: 14px;
+    background-color: rgb(221, 203, 153);
+    visibility: visible;
+    border-color:  rgb(221, 203, 153);
+    outline-color: rgb(221, 203, 153);
+}
+
+#mainTable{
+    visibility: hidden;
+	font-size: 14px;
+	border-bottom-style: solid;
+    border-bottom-color: black;
+	background-color: #fff;
+}
+
+#one{
+    font-size: 18px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+#twoOne{
+    font-size: 14px;
+    background-color: rgb(221, 203, 153);
+}
+
+#twoFour{
+    font-size: 12px;
+    background-color: rgb(221, 203, 153);
+}
+
+#threeThree{
+    font-size: 14px;
+    background-color: rgb(221, 203, 153);
+}
+
+#fourThree{
+    font-size: 14px;
+    background-color: rgb(221, 203, 153);
+}
+
+#fiveOne{
+    font-size: 14px;
+    background-color: rgb(221, 182, 75);
+    color: white;
+}
+
+#fiveTwo{
+    font-size: 14px;
+    background-color: rgb(221, 182, 75);
+    color: white;
+}
