@@ -1,0 +1,117 @@
+#btn{
+    font-size: 14px;
+    background-color: rgb(221, 203, 153);
+}
+#btn2{
+    font-size: 14px;
+    background-color: rgb(221, 203, 153);
+    visibility: visible;
+    border-color:  rgb(221, 203, 153);
+    outline-color: rgb(221, 203, 153);
+    border: none;
+}
+
+#mainTable{
+    visibility: visible;
+	font-size: 14px;
+	border-bottom-style: solid;
+    border-bottom-color: black;
+	background-color: #fff;
+}
+
+#one{
+    font-size: 18px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+#twoOne{
+    font-size: 14px;
+    background-color: rgb(221, 203, 153);
+    visibility: visible;
+}
+
+#twoTwo{
+    border-right-style: solid;
+    border-right-color: black;
+    border-right-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 2px;
+}
+
+#twoThree{
+    border-right-style: solid;
+    border-right-color: black;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 2px;
+}
+
+#twoFour{
+    font-size: 12px;
+    background-color: rgb(221, 203, 153);
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 2px;
+}
+
+#threeOne{
+    border-right-style: solid;
+    border-right-color: black;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+}
+
+#threeTwo{
+    border-right-style: solid;
+    border-right-color: black;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+}
+
+#threeThree{
+    font-size: 14px;
+    background-color: rgb(221, 203, 153);
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 2px;
+}
+
+#fourOne{
+    border-right-style: solid;
+    border-right-color: black;
+    border-right-width: 2px;
+}
+
+#fourTwo{
+    border-right-style: solid;
+    border-right-color: black;
+}
+
+#fourThree{
+    font-size: 14px;
+    background-color: rgb(221, 203, 153);
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 2px;
+}
+
+#fiveOne{
+    font-size: 14px;
+    background-color: rgb(221, 182, 75);
+    color: white;
+    border-right-style: solid;
+    border-right-color: black;
+    border-top-style: solid;
+    border-top-color: black;
+}
+
+#fiveTwo{
+    font-size: 14px;
+    background-color: rgb(221, 182, 75);
+    color: white;
+}
