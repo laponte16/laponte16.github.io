@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- STYLES -->
-	<link rel="stylesheet" href="styl.css">
+	<link rel="stylesheet" href="style.css">
 	<title>JSON Test</title>
 </head>
 <body>
@@ -69,8 +69,8 @@
 			?>
 			</button>
 			</th>
-			<th align="center" id="2-2">&nbsp&nbsp&nbsp&nbspGene&nbsp&nbsp&nbsp&nbsp</th>
-			<th align="center" id="2-3">Genotype</th>
+			<th align="center" id="twoTwo">&nbsp&nbsp&nbsp&nbspGene&nbsp&nbsp&nbsp&nbsp</th>
+			<th align="center" id="twoThree">Genotype</th>
 			<th colspan="2" align="center" id="twoFour">Phenotypes/Patient Impact</th>
 			<th rowspan="4" colspan="2" align="center" id="2-5">
 			<?php
@@ -81,7 +81,7 @@
 			?>
 			</th>
 		</tr> <!--THIRD ROW-->
-			<td align="center" id="3-1">
+			<td align="center" id="threeOne">
 			<?php
 				foreach($product['CurrentMedications'] as $CurrentMedication) 
 				{
@@ -95,7 +95,7 @@
 				}
 			?>
 			</td>
-			<td align="center" id="3-2">
+			<td align="center" id="threeTwo">
 			<?php
 				foreach($product['CurrentMedications'] as $CurrentMedication) 
 				{
@@ -125,7 +125,7 @@
 			</td>
 		</tr> <!--FOURTH ROW-->
 		</tr>
-			<td align="center" 4-1>
+			<td align="center" id="fourOne">
 			<?php
 				foreach($product['CurrentMedications'] as $CurrentMedication) 
 				{
@@ -139,7 +139,7 @@
 				}
 			?>
 			</td>
-			<td align="center" id="4-2">
+			<td align="center" id="fourTwo">
 			<?php
 				foreach($product['CurrentMedications'] as $CurrentMedication) 
 				{
