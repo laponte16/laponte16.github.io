@@ -47,37 +47,7 @@ body{
     color: rgb(207, 95, 95);
 }
 
-/*ELEMENTOS DEL NAV*/
 
-.nav{
-    margin: 5px;
-    width: 99%;
-
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-}
-
-.nav a{
-    margin: 0 auto;
-    
-    text-decoration: none;
-    text-align: center;
-    font-size: 14px;
-    color: rgb(30, 28, 28);
-    padding: 10px 45px;
-    background-color: rgb(255, 210, 167);
-    /*background-color: rgb(181, 226, 215);*/
-    border-top-left-radius: 15px 11px;
-    border-top-right-radius: 15px 11px;
-    border-bottom-left-radius: 15px 11px;
-    border-bottom-right-radius: 15px 11px;
-}
-
-.nav a:hover {
-    color: rgb(207, 95, 95);
-    /*color: rgb(0, 117, 108);*/
-}
 
 /*ELEMENTOS DEL CONTENT*/
 
