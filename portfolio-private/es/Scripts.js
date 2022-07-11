@@ -85,7 +85,7 @@ function clickBehaviour(){
 }
 function clickName(){
     contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("Todos necesitan un nombre! Y aun mas importante, necesitan saber que es a ellos que le hablan. Nos aseguraremos que Fido no deje mas como un tonto cuando les pidas que vengan a ti")},700);
+    window.setTimeout(function(){textRace.text("Todos necesitan un nombre! Y aun mas importante, necesitan saber que es a ellos que le hablan. Nos aseguraremos de que Fido no te deje mas como un tonto cuando les pidas que venga a ti")},700);
     imgUrl = "../Images/poodle.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);

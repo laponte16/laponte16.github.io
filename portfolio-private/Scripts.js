@@ -29,7 +29,14 @@ $("#vaccine").on("click", clickVaccine);
 $("#medicalCare").on("click", clickMedicalCare);
 $("#sterilize").on("click", clickSterilize);
 /*SLIDE FUNCTIONS CALLS*/
-
+$('.slider').bxSlider({
+    autoControls: true,
+    auto: true,
+    pager: true,
+    mode: 'horizontal',
+    captions: false,
+    speed: 1000
+});
 }
 
 /*BREED FUNCTIONS DEFINITIONS*/
