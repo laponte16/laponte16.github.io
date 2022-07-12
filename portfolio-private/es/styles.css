@@ -4,7 +4,7 @@
 body{
     margin: 0;
     background-color: white;
-    background-image: url(../images/paw-print-2.jpg);
+    background-image: url(../Images/paw-print-2.jpg);
     z-index: 2;
     width: 98vw;
 }
@@ -30,6 +30,11 @@ body{
 }
 
 /*ELEMENTOS DEL NAVBAR*/
+
+.navbar{
+    margin-bottom: 35px;
+}
+
 .bg-light{
     width: 98.7vw;
     background: rgb(255, 231, 211) !important;
@@ -255,7 +260,7 @@ body{
 .wrapper-index{
     width: 100%;
     min-height: 100vh;
-    background-image:linear-gradient(rgba(207, 95, 95, 0.2),rgba(0, 0, 0, 0.4)), url(images/493535.jpg);
+    background-image:linear-gradient(rgba(207, 95, 95, 0.2),rgba(0, 0, 0, 0.4)), url(Images/493535.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
