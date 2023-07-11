@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" type="text/css" href="../../styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-500">
+    <div class="mainDiv flex flex-col items-center">
+
+        <div class="contentLogin text-white text-center rounded-2xl loginOutside">
+            <div class="login">
+                <div class="flex flex-col items-center justify-center">
+                    <p class="text-3xl m-2 mt-7 w-3/5">Login</p>
+                </div>
+                <form method="post" action="../back-end/login.php">
+                    <div class="flex flex-row items-center justify-center mt-7">
+                        <div class="flex flex-col items-center justify-center 3/5"> 
+                            <input type="text" placeholder="User" name="user" class="rounded-md mb-4 text-black px-2 h-9">
+                            <input type="password" placeholder="Password" name="pass" class="rounded-md text-black px-2 h-9">
+                        </div>
+                    </div>
+                    <div class="flex justify-center pb-2 mt-4">
+                    <input type="submit" value="Sign In" class="mt-2 text-xl bg-teal-300 w-24 h-9 rounded-md cursor-pointer">
+                    </div>
+                </form>
+                
+            </div>
+            
+
+            <div class="signIn">
+                <form method="post" action="../back-end/signUp.php" class="flex flex-col justify-center items-center h-full">
+					<p id="signIn" class="text-3xl m-2 mt-3 w-3/5 cursor-pointer">Sign Up</p>
+					<input type="text" placeholder="User" name="user" class="rounded-md mb-4 text-black px-2 h-9">
+					<input type="password" placeholder="Password" name="pass" class="rounded-md text-black px-2 h-9">
+                    <input type="submit" value="Sign Up" class="mt-2 text-xl bg-teal-300 w-24 h-9 rounded-md cursor-pointer">
+				</form>
+            </div>
+
+
+        </div>
+    </div>
+    <script type="text/javascript" src="../../scripts/jquery.js"></script>
+    <script type="text/javascript" src="../../scripts/animation.js"></script>
+</body>
+</html>

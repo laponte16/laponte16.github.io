@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ca713a058f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="mainDiv">
+        <div>
+            <?php include "en/nav/nav-en.html"; ?>
+        </div>
+
+        <div class="content">
+            <div class="homeTope">
+                <div class="homeTope1">
+                    <h1>ISP-SAMPLE</h1>
+                    <h2>High-Speed Internet</h2>
+                </div>
+                <div class="homeTope2">
+                    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active slide1">
+                                <div class="container-slide">
+                                    <p class="text-3xl">Always stay up to date</p>
+                                    <p>All our services aim to ensure the latest technology in communications</p>
+                                    <a href="#" class="btn btn-lg text-white">Know more</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item slide2">
+                                <div class="container-slide">
+                                    <p class="text-3xl">Ideal for your children's studies</p>
+                                    <p>Fast and reliable. No internet crashes.</p>
+                                    <a href="#" class="btn btn-lg text-white ">Know more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="homeSwitch1 text-center justify-center pt-4">
+                <p class="text-5xl font-bold">Switch without any worries</p>
+                <p class="text-3xl">We consider your choices</p>
+            </div>
+            <div id="homeSwitch2" class="flex flex-row justify-evenly pt-5">
+                <div class="switchtime ">
+
+                    <p  class="sicon shaky text-white text-center"><i class="fa-solid fa-clock fa-4x pb-2"></i></p>
+
+                    <p  class="stitle text-3xl text-center">Free Test</p>
+                    <p  class="stext mt-3 text-center">Limited-time offer just for our new clients. Try our services for a whole month!<br>
+                    See if it works for your needs or we'll give your money back</p>
+                    <p  class="slittle text-sm mt-3 text-center ">May not be combinable with some offers or discounts. </p>
+                </div>
+                <div id="switchline"></div>
+                <div class="switchcost ">
+
+                    <p  class="sicon shaky text-white text-center"><i class="fa-regular fa-credit-card fa-4x pb-2"></i></p>
+
+                    <p  class="stitle text-3xl  text-center">No charge </p>
+                    <p  class="stext mt-3 text-center">If you decide to Switch, we'll pay for termination fees! </p>
+                    <p  class="slittle text-sm mt-3 text-center ">This is a Limited-time offer, subject to change.  </p>
+                </div>
+            </div>
+
+            <div  class="homePriceLock1 text-center justify-center pt-3 ">
+                <p id="lockp" class="text-3xl ">Put a patlock to your prices</p>
+                <p id="lockp" class="text-5xl font-bold ">We won't raise the rate plan price. Never!</p>
+                <p id="lockp" class="text-sm pt-3" >Price Lock is an assurance that ISP won't raise the rate plan price for 
+                    qualifying plans after June 26, 2022. No hidden fees.</p>
+            </div>
+            <div class="homePriceLock2"> </div>
+            
+
+            <div class="homePromo1 text-center justify-center">
+                <div id="promoline"></div>
+                <p class="text-5xl font-bold text-white pt-4">Take a look at our Special Offers</p>
+            </div>
+            <div class="homePromo2">
+                <div id="promoline"></div>
+                <div class="promolist flex flex-row justify-envenly text-white pt-5">
+                    <div class="promlist px-3 flex flex-column">
+                        <p  class="shaky text-white pb-3 text-center"><i class="fa-solid fa-house-laptop fa-4x"></i></p>
+                        <p class="promop text-2xl pb-1 pl-4 text-left">Get conected for just $15.99/mo</p>
+                        <p class="promop2 pb-3  pl-4 text-left">Save $9/mo signing up with a coupon! Only available with the Fibra-Basic plan.</p>
+                        <a href="#" class="btn btn-lg text-white pulse">Know more</a>
+                    </div>
+                    <div class="promlist px-3 flex flex-column">
+                        <p  class=" shaky text-white pb-3 text-center"><i class="fa-solid fa-tv fa-4x"></i></p>
+                        <p class="promop text-2xl pb-1 pl-4 text-left">All Streaming Services!</p>
+                        <p class="promop2 pb-3 pl-4 text-left">Stream hit movies, exclusive originals, live sports, and more. Just select your preferred service!</p>
+                        <a href="#" class="btn btn-lg text-white pulse">Know more</a>
+                    </div>
+                    <div class="promlist px-3 flex flex-column">
+                        <p  class=" shaky text-white pb-3 text-center"><i class="fa-solid fa-percent fa-4x"></i></p>
+                        <p class="promop text-2xl pb-1 pl-4 text-left">Change your plan to get a 30% discount</p>
+                        <p class="promop2 pb-3 pl-4 text-left">Change your plan today to any other available to get an special discount for a limited time</p>
+                        <a href="#" class="btn btn-lg text-white pulse">Know more</a>
+                    </div>
+                    <div class="promlist px-3 flex flex-column">
+                        <p  class=" shaky text-white pb-3 text-center"><i class="fa-solid fa-house-signal fa-4x"></i></p>
+                        <p class="promop text-2xl pb-1 pl-4 text-left">Get Fibra-Top plan and go ultrafast</p>
+                        <p class="promop2 pb-3 pl-4 text-left">With this plan, you'll get a Wi-Fi 6E system and free activation. No additional fees.</p>
+                        <a href="#" class="btn btn-lg text-white pulse">Know more</a>
+                    </div>  
+                    <div class="promlist px-3 flex flex-column">
+                        <p  class=" shaky text-white pb-3 text-center"><i class="fa-solid fa-computer fa-4x"></i></p>
+                        <p class="promop text-2xl pb-1 pl-4 text-left">Fibra-Mid receives special gifts!</p>
+                        <p class="promop2 pb-3 pl-4 text-left">Customers signing up will receive a gift card along with a free HBO Max subscription for a year</p>
+                        <a href="#" class="btn btn-lg text-white pulse">Know more</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="homeFlex1 text-center justify-center">
+                <p class="text-5xl font-bold pt-4">The Best Prices for the Best Service</p>
+            </div>
+            <div class="homeFlex2 flex flex-row justify-content-around pb-5">
+                <div class="flexing"></div>
+                <div class="flexing2"></div>
+            </div>
+        </div>
+        <div>
+            <?php include "en/footer/footer-en.html"; ?>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="scripts/observer.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
