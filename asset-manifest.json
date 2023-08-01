@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Thunderbit-main/static/css/main.7532228b.css",
+    "main.js": "/Thunderbit-main/static/js/main.1a678ebc.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/Thunderbit-main/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/pexels.gif": "/Thunderbit-main/static/media/pexels.20a70e28aae8e3f87db4.gif",
+    "static/media/carousel.jpg": "/Thunderbit-main/static/media/carousel.36eba8bebccba55ef001.jpg",
+    "static/media/carousel3.jpg": "/Thunderbit-main/static/media/carousel3.876f846933f381a7de4c.jpg",
+    "static/media/PncLanding.png": "/Thunderbit-main/static/media/PncLanding.f219184cc0e4d9079b6a.png",
+    "static/media/ISPHome2.png": "/Thunderbit-main/static/media/ISPHome2.48414ecb0db5cf0dcc94.png",
+    "static/media/PncHome.png": "/Thunderbit-main/static/media/PncHome.fad711c577f7f78a2ecd.png",
+    "static/media/carousel2.jpg": "/Thunderbit-main/static/media/carousel2.7db1f25c3979c713fd18.jpg",
+    "static/media/ISPHome.png": "/Thunderbit-main/static/media/ISPHome.f30b9ec2765d99bbab44.png",
+    "static/media/BookHome.png": "/Thunderbit-main/static/media/BookHome.8fbfc9579a38f74d53ea.png",
+    "static/media/PncTraining.png": "/Thunderbit-main/static/media/PncTraining.7b366b933f043c572516.png",
+    "static/media/BookForum.png": "/Thunderbit-main/static/media/BookForum.53146346b68805ef0fef.png",
+    "static/media/GpHome.png": "/Thunderbit-main/static/media/GpHome.102bdf0c5e8a782d3a5f.png",
+    "static/media/GpDesp.png": "/Thunderbit-main/static/media/GpDesp.6858d907b83d1ce089d4.png",
+    "static/media/Gpcobrar.png": "/Thunderbit-main/static/media/Gpcobrar.37ac21a9355060008e00.png",
+    "static/media/GpAdm.png": "/Thunderbit-main/static/media/GpAdm.df34236e529316ed38e1.png",
+    "static/media/logo.png": "/Thunderbit-main/static/media/logo.09ffd12bb87aaaac8850.png",
+    "static/media/BookLogin.png": "/Thunderbit-main/static/media/BookLogin.9b5a1015ea085a819251.png",
+    "static/media/GpLogin.png": "/Thunderbit-main/static/media/GpLogin.692dc6ae1b4031e8da07.png",
+    "static/media/ISPplans.png": "/Thunderbit-main/static/media/ISPplans.4dec6f2a92dc82266587.png",
+    "index.html": "/Thunderbit-main/index.html",
+    "main.7532228b.css.map": "/Thunderbit-main/static/css/main.7532228b.css.map",
+    "main.1a678ebc.js.map": "/Thunderbit-main/static/js/main.1a678ebc.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/Thunderbit-main/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7532228b.css",
+    "static/js/main.1a678ebc.js"
+  ]
+}
